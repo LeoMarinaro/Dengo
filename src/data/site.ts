@@ -1,10 +1,10 @@
-// TODO: trocar pelos contatos reais do estúdio.
 export const site = {
   name: "Dengo Studios",
-  email: "contato@dengostudios.com",
+  /** E-mail de contato. Deixe null enquanto não houver; o botão some do rodapé. */
+  email: null as string | null,
+  // Discord e e-mail entram aqui quando existirem.
   socials: [
-    { label: "itch.io", url: "https://itch.io" },
-    { label: "Instagram", url: "https://instagram.com" },
-    { label: "Discord", url: "https://discord.com" },
+    { label: "itch.io", url: "https://dengo-studios.itch.io" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/company/dengo-studios/" },
   ],
 };

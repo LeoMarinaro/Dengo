@@ -16,13 +16,15 @@ export async function Footer() {
             {dict.footer.contactTitle}
           </h2>
           <p className="mt-3 max-w-md text-cream-100/90">{dict.footer.contactText}</p>
-          <a
-            href={`mailto:${site.email}`}
-            className="mt-6 inline-flex items-center gap-2 rounded-full bg-cream-300 px-5 py-3 font-display font-semibold text-clay-700 transition-colors hover:bg-cream-50"
-          >
-            <span className="sr-only">{dict.footer.emailLabel}: </span>
-            {site.email}
-          </a>
+          {site.email && (
+            <a
+              href={`mailto:${site.email}`}
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-cream-300 px-5 py-3 font-display font-semibold text-clay-700 transition-colors hover:bg-cream-50"
+            >
+              <span className="sr-only">{dict.footer.emailLabel}: </span>
+              {site.email}
+            </a>
+          )}
         </div>
 
         <div className="md:justify-self-end">
