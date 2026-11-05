@@ -25,6 +25,16 @@
   --font-sans: var(--font-nunito);
 }
 
+/* Reflexo que atravessa o rótulo do cartucho */
+@keyframes shine {
+  from {
+    transform: translateX(-120%) skewX(-20deg);
+  }
+  to {
+    transform: translateX(220%) skewX(-20deg);
+  }
+}
+
 @keyframes blink {
   0%,
   100% {
