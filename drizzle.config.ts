@@ -10,5 +10,8 @@ export default defineConfig({
   schema: "./src/db/schema.ts",
   out: "./drizzle",
   dialect: "postgresql",
-  dbCredentials: { url: process.env.DATABASE_URL! },
+  // Só mexe no esquema "public". O Neon cria o esquema "neon_auth" sozinho; ele não é nosso.
+  schemaFilter: ["public"],
+  // Conexão direta (sem pooler) é a recomendada pelo Neon para criar/alterar tabelas.
+  dbCredentials: { url: (process.env.DATABASE_URL_UNPOOLED || process.env.DATABASE_URL)! },
 });
