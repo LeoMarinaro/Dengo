@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Dengo Studios",
+    "description": "Dengo Studios is an independent game development team. Check out our games and the Dengo Lab projects."
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "mainNav": "Main navigation",
+    "opensInNewTab": "(opens in a new tab)",
+    "switchLanguage": "Switch language to Portuguese",
+    "home": "Dengo Studios, home page"
+  },
+  "nav": {
+    "home": "Home",
+    "games": "Games",
+    "dengo": "Dengo Studios",
+    "lab": "Dengo Lab",
+    "team": "Team"
+  },
+  "home": {
+    "aboutTitle": "About us",
+    "aboutImageAlt": "Dengo Studios logo: a clay letter D shaped like a Brazilian clay water filter",
+    "about": [
+      "Dengo Studios is an independent game development team driven by a passion for crafting unique and polished experiences. Founded just one year ago, our close-knit team of four developers has already brought two distinct titles from concept to launch.",
+      "We believe in the power of small teams to deliver focused, creative, and memorable games. With a productive first year and two projects already in our portfolio, we are focused on building worlds and stories that resonate with players."
+    ],
+    "dengoTitle": "Dengo games",
+    "dengoText": "Made by the whole team.",
+    "labTitle": "Dengo Lab",
+    "labText": "Personal projects and experiments from each member.",
+    "seeAll": "See all"
+  },
+  "games": {
+    "dengoTitle": "Dengo Studios",
+    "dengoIntro": "Games made by the whole team.",
+    "labTitle": "Dengo Lab",
+    "labIntro": "Dengo's lab: personal projects and experiments from each member.",
+    "seeMore": "See more",
+    "playOnItch": "Play on itch.io",
+    "by": "by",
+    "backTo": "Back to",
+    "screenshotAlt": "Screenshot of",
+    "noScreenshot": "Screenshot coming soon",
+    "empty": "Nothing here yet. Coming soon!",
+    "status": {
+      "prototype": "Prototype",
+      "in-development": "In development",
+      "released": "Released"
+    },
+    "gallery": "Gallery"
+  },
+  "team": {
+    "title": "Team",
+    "select": "Select a member",
+    "mascot": "Mascot (coming soon)",
+    "backToTeam": "Back to selection",
+    "memberPlaceholder": "Page under construction. More about this person soon.",
+    "emptySlot": "Open slot",
+    "links": "Links",
+    "labGames": "Dengo Lab projects"
+  },
+  "footer": {
+    "contactTitle": "Get in touch",
+    "contactText": "Want to talk about a game, a partnership, or just say hi? Drop us a line.",
+    "emailLabel": "Email",
+    "findUs": "Find us",
+    "rights": "Made with care in Brazil.",
+    "members": "Members area"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "title": "Dengo Studios",
+    "description": "Dengo Studios é uma equipe independente de desenvolvimento de jogos. Conheça nossos jogos e os projetos do Dengo Lab."
+  },
+  "a11y": {
+    "skipToContent": "Pular para o conteúdo",
+    "mainNav": "Navegação principal",
+    "opensInNewTab": "(abre em nova aba)",
+    "switchLanguage": "Mudar idioma para inglês",
+    "home": "Dengo Studios, página inicial"
+  },
+  "nav": {
+    "home": "Início",
+    "games": "Jogos",
+    "dengo": "Dengo Studios",
+    "lab": "Dengo Lab",
+    "team": "Equipe"
+  },
+  "home": {
+    "aboutTitle": "Sobre nós",
+    "aboutImageAlt": "Logo da Dengo Studios: um D de barro em formato de filtro de barro",
+    "about": [
+      "A Dengo Studios é uma equipe independente de desenvolvimento de jogos movida pela paixão de criar experiências únicas e bem acabadas. Fundada há apenas um ano, nossa equipe pequena e unida de quatro desenvolvedores já levou dois títulos distintos do conceito ao lançamento.",
+      "Acreditamos no poder de equipes pequenas para entregar jogos focados, criativos e memoráveis. Com um primeiro ano produtivo e dois projetos já no portfólio, estamos focados em construir mundos e histórias que toquem os jogadores."
+    ],
+    "dengoTitle": "Jogos da Dengo",
+    "dengoText": "Feitos pela equipe toda.",
+    "labTitle": "Dengo Lab",
+    "labText": "Projetos pessoais e experimentos de cada membro.",
+    "seeAll": "Ver todos"
+  },
+  "games": {
+    "dengoTitle": "Dengo Studios",
+    "dengoIntro": "Os jogos feitos pela equipe toda.",
+    "labTitle": "Dengo Lab",
+    "labIntro": "O laboratório da Dengo: projetos pessoais e experimentos de cada membro.",
+    "seeMore": "Ver mais",
+    "playOnItch": "Jogar no itch.io",
+    "by": "por",
+    "backTo": "Voltar para",
+    "screenshotAlt": "Screenshot de",
+    "noScreenshot": "Screenshot em breve",
+    "empty": "Nenhum jogo por aqui ainda. Em breve!",
+    "status": {
+      "prototype": "Protótipo",
+      "in-development": "Em desenvolvimento",
+      "released": "Lançado"
+    },
+    "gallery": "Galeria"
+  },
+  "team": {
+    "title": "Equipe",
+    "select": "Selecione um membro",
+    "mascot": "Mascote (em breve)",
+    "backToTeam": "Voltar para a seleção",
+    "memberPlaceholder": "Página em construção. Em breve, mais sobre esta pessoa.",
+    "emptySlot": "Vaga em aberto",
+    "links": "Links",
+    "labGames": "Projetos no Dengo Lab"
+  },
+  "footer": {
+    "contactTitle": "Fale com a gente",
+    "contactText": "Quer conversar sobre um jogo, uma parceria ou só mandar um oi? Escreve pra gente.",
+    "emailLabel": "E-mail",
+    "findUs": "Encontre a gente",
+    "rights": "Feito com carinho no Brasil.",
+    "members": "Área de membros"
+  }
+}

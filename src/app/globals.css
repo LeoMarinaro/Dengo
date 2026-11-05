@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* Paleta tirada do logo: barro/terracota, laranja, creme e verde das folhas. */
+@theme {
+  --color-cream-50: #fffaf2;
+  --color-cream-100: #fbf1e3;
+  --color-cream-200: #f6e2c6;
+  --color-cream-300: #f3d9a4;
+
+  --color-clay-300: #e9a07c;
+  --color-clay-400: #d9774f;
+  --color-clay-500: #c2603a;
+  --color-clay-600: #a64b2a;
+  --color-clay-700: #853a20;
+
+  --color-orange-400: #f0954a;
+
+  --color-leaf-500: #6e9a5a;
+  --color-leaf-700: #46663a;
+
+  --color-ink: #3b2418;
+  --color-ink-soft: #6b4a3a;
+
+  --font-display: var(--font-fredoka);
+  --font-sans: var(--font-nunito);
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    background-color: var(--color-cream-100);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--color-clay-600);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  [id] {
+    scroll-margin-top: 6rem;
+  }
+}
+
+/* Textura sutil de "azulejo" como no fundo do logo. */
+.bg-tiles {
+  background-color: var(--color-cream-200);
+  background-image:
+    linear-gradient(to right, rgb(166 75 42 / 0.08) 2px, transparent 2px),
+    linear-gradient(to bottom, rgb(166 75 42 / 0.08) 2px, transparent 2px);
+  background-size: 96px 96px;
+}
