@@ -3,6 +3,7 @@
 import { useActionState } from "react";
 import type { GameStatus } from "@/db/schema";
 import { updateGame } from "@/lib/actions";
+import { submitWithoutReset } from "./submit";
 import { buttonClass, Card, Feedback, Field, inputClass } from "./ui";
 
 type Initial = {
@@ -25,7 +26,7 @@ export function GameForm({ gameId, initial, authors }: { gameId: string; initial
   const [state, action, pending] = useActionState(updateGame.bind(null, gameId), null);
 
   return (
-    <form action={action} className="space-y-6">
+    <form onSubmit={submitWithoutReset(action)} className="space-y-6">
       <Card title="Informações">
         <div className="space-y-5">
           <Field label="Nome do jogo">

@@ -3,6 +3,7 @@
 import { useActionState, useState } from "react";
 import type { MemberLink } from "@/db/schema";
 import { updateProfile } from "@/lib/actions";
+import { submitWithoutReset } from "./submit";
 import { buttonClass, Card, Feedback, Field, inputClass, secondaryButtonClass } from "./ui";
 
 type ProfileData = {
@@ -23,7 +24,7 @@ export function ProfileForm({ member }: { member: ProfileData }) {
   const [preview, setPreview] = useState<string | null>(member.photoUrl);
 
   return (
-    <form action={action} className="space-y-6">
+    <form onSubmit={submitWithoutReset(action)} className="space-y-6">
       <Card title="Sobre você">
         <div className="space-y-5">
           <Field label="Nome">
